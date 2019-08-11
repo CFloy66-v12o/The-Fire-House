@@ -1,6 +1,6 @@
-/* html {
-    font-size: 18px;
-} */
+html {
+    font-size: 16px;
+}
  
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
@@ -4067,6 +4067,7 @@
   .nav-link {
     display: block;
     padding: 0.5rem 1rem;
+    color: #b21f2d;
   }
   
   .nav-link:hover, .nav-link:focus {
@@ -4105,7 +4106,7 @@
   
   .nav-tabs .nav-link.active,
   .nav-tabs .nav-item.show .nav-link {
-    color: #495057;
+    color: #df2315;
     background-color: #fff;
     border-color: #dee2e6 #dee2e6 #fff;
   }
@@ -10038,12 +10039,18 @@
       color: inherit;
       border-color: #dee2e6;
     }
+
+    
   }
   /*# sourceMappingURL=bootstrap.css.map */
 
   .main-header {
-      background-image: url(../images/bricks.jpg);
-  }
+    background-image: url(../images/bricks.jpg);
+    /* background-position: center; */
+    background-repeat: no-repeat;
+}
+
+  
 
 
 
