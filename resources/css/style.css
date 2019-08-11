@@ -10044,8 +10044,8 @@ html {
   }
   /*# sourceMappingURL=bootstrap.css.map */
 
-  .main-content-container. {
-    background-image: url(../resources/images/Washington/DC/Fire_eng32wd.JPG);
+  .jumbotron {
+    background-image: url(resources/images/Washington/DC/Fire_eng32wd.JPG);
     background-position: center;
     background-repeat: no-repeat;
 }
