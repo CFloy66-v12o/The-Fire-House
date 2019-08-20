@@ -10044,17 +10044,21 @@ html {
   }
   /*# sourceMappingURL=bootstrap.css.map */
 
-  .jumbotron {
-    background-image: url(resources/images/Washington/DC/Fire_eng32wd.JPG);
-    background-position: center;
-    background-repeat: no-repeat;
+
+.laptop-pic {
+  position: relative;
+  bottom: 43em;
+  left: 5.4em;
+  box-shadow: 3px 3px 3px 5px #007bff;
 }
 
-.dc32 {
-  position: relative;
-  bottom: 27.6em;
-  left: 10.3em;
+.display-4 {
+  text-shadow: 3px 3px 7px #222;
 }
+
+
+
+
 
   
 
