@@ -10045,11 +10045,16 @@ html {
   /*# sourceMappingURL=bootstrap.css.map */
 
 
+.firehouse-img {
+  position: relative;
+  bottom: -2em;
+  left: 5.4em;
+  box-shadow: 5px 5px 15px #b3d7ff;
+}
+
 .laptop-pic {
   position: relative;
-  bottom: 43em;
-  left: 5.4em;
-  box-shadow: 3px 3px 3px 5px #007bff;
+  left: 10em;
 }
 
 .display-4 {
