@@ -12,7 +12,7 @@
     
     
 </head>
-<body>
+<body class="bg-danger">
     <div class="jumbotron jumbotron-fluid bg-danger">
         <h1 class="display-4">The Fire House<sub>&reg;</sub></h1>
         <p class="lead">This form is only for our current and future fire dept personnel to sign-up and sign-in. Thank You.</p>
@@ -39,25 +39,46 @@
     </nav>
         
       </div>
+    </div>
+</div>
+
+    <form class="jumbotron jumbotron-fluid bg-danger text-light">
+        <h3 class="h2 text-center">Sign In</h3>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with 3rd party buyers.</small>
+        </div>
+        <div class="form-group mb-4">
+          <label for="exampleInputFDID">FD ID#</label>
+          <input type="password" class="form-control" id="exampleInputFDID" placeholder="used for verification purposes only">
+        </div>
+        
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+   
+
+    
 
         
-      </div>
+      
 
-      <div class="jumbotron jumbotron-fluid bg-danger border border-white">
-            <form class="bg-light">
+      <div class="jumbotron jumbotron-fluid bg-danger text-light">
+          <h3 class="h2 text-center">Sign Up</h3>
+            <form class="bg-danger text-light">
                     <div class="form-row">
                       <div class="col-md-4 mb-3">
                         <label for="validationServer01">First name</label>
                         <input type="text" class="form-control is-valid" id="validationServer01" placeholder="First name" value="" required>
                         <div class="valid-feedback">
-                          please enter your first name
+                          <p class="lead text-light">please enter your first name</p>
                         </div>
                       </div>
                       <div class="col-md-4 mb-3">
                         <label for="validationServer02">Last name</label>
                         <input type="text" class="form-control is-valid" id="validationServer02" placeholder="Last name" value="" required>
                         <div class="valid-feedback">
-                          please enter your last name
+                            <p class="lead text-light">please enter your last name</p>
                         </div>
                       </div>
                       <div class="col-md-4 mb-3">
@@ -68,54 +89,52 @@
                           </div>
                           <input type="text" class="form-control is-valid" id="validationServerUsername" placeholder="Username" aria-describedby="inputGroupPrepend3" required>
                           <div class="valid-feedback">
-                            Please choose a username.
+                                <p class="lead text-light">please choose a username</p>
                           </div>
                           
                         </div>
                         
                       </div>
                       <div class="col-md-4 mb-3">
-                            <label for="validationServer#ID">FD #ID</label>
-                            <input type="text" class="form-control is-valid" id="validationServer#ID" placeholder="FD #ID" value="" required>
-                            <div class="valid-feedback">
-                              please enter your current or former ID# for verification purposes.
-                            </div>
+                        <label for="validationServer#ID">FD ID#</label>
+                        <input type="text" class="form-control is-valid" id="validationServer#ID" placeholder="for internal use only" value="" required>
+                        <div class="valid-feedback">
+                            <p class="lead text-light">please enter a current or former ID# for verification purposes</p>
+                        </div>
                     </div>
-                    <div class="form-row">
-                      <div class="col-md-6 mb-3">
+                    <div class="form-row col-md-4 mb-3">
+                      <div class="">
                         <label for="validationServer03">City</label>
                         <input type="text" class="form-control is-valid" id="validationServer03" placeholder="City" required>
                         <div class="valid-feedback">
-                          Please provide a valid city.
+                            <p class="lead text-light">please provide a valid city</p>
                         </div>
                       </div>
-                      <div class="col-md-3 mb-3 col-lg-6">
+                      <div class="col-md-4 mb-3">
                         <label for="validationServer04">State</label>
                         <input type="text" class="form-control is-valid" id="validationServer04" placeholder="State" required>
                         <div class="valid-feedback">
-                          Please provide a valid state.
+                            <p class="lead text-light">please provide a valid state</p>
                         </div>
                       </div>
-                      <div class="col-md-3 mb-3 col-lg-8">
-                        <label for="validationServer05">Zip</label>
-                        <input type="text" class="form-control is-valid" id="validationServer05" placeholder="Zip" required>
-                        <div class="valid-feedback">
-                          Please provide a valid zip.
-                        </div>
+                      
                       </div>
                     </div>
-                    <div class="form-group col-lg-2">
+                    <div class="form-group col-md-4 mb-5">
                       <div class="form-check">
                         <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required>
-                        <label class="form-check-label" for="invalidCheck3">
-                          Agree to terms and conditions
+                        <label class="form-check-label text-info" for="invalidCheck3">
+                                <p class="lead text-light">please agree to terms and conditions</p>
                         </label>
-                        <div class="invalid-feedback">
-                          You must agree before submitting.
+                        <div class="invalid-feedback text-info">
+                                <p class="lead text-light">You must agree before submitting</p>
                         </div>
                       </div>
                     </div>
-                    <button class="btn btn-primary btn-sm bg-danger" type="submit">Submit form</button>
+                    
+                    <button class="btn btn-md btn-primary mb-4 ml-3" type="submit">Submit form</button>
+                    
+                    
                   </form>
 
     </div>
