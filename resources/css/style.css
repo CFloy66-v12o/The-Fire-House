@@ -4160,6 +4160,7 @@ html {
     -ms-flex-pack: justify;
     justify-content: space-between;
     padding: 0.5rem 1rem;
+  
   }
   
   .navbar > .container,
@@ -4172,6 +4173,7 @@ html {
     align-items: center;
     -ms-flex-pack: justify;
     justify-content: space-between;
+   
   }
   
   .navbar-brand {
@@ -4196,6 +4198,7 @@ html {
     padding-left: 0;
     margin-bottom: 0;
     list-style: none;
+   
   }
   
   .navbar-nav .nav-link {
@@ -10071,6 +10074,8 @@ a {
 strong {
   text-decoration: underline;
 }
+
+ 
 
 
 
