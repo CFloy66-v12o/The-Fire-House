@@ -10055,7 +10055,17 @@ html {
   top: 2.7em;
 }
 
+.lead,
+a {
+  font-family: 'Annie Use Your Telescope', cursive;
+  font-size: 1.8em;
+  font-weight: 400;
+}
 
+.mods {
+  font-family: 'Annie Use Your Telescope', cursive;
+  font-weight: 600;
+}
 
 
 
