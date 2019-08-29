@@ -10075,7 +10075,15 @@ strong {
   text-decoration: underline;
 }
 
- 
+ .navbar {
+   background-image: url("../images/bricks_2.png");
+   object-fit: fill;
+   background-size: contain;
+ }
+
+ .navbar-logo {
+   position: relative;
+ }
 
 
 
