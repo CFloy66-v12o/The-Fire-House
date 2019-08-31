@@ -10093,9 +10093,9 @@ strong {
  }
 
  .nav-item > a {
-   color: red;
+   color: white;
    font-weight: 700;
-   background-color: #040505;
+   /* background-color: #040505; */
    border-radius: 5%;
  }
 
