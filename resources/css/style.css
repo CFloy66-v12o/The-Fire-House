@@ -10087,7 +10087,7 @@ strong {
 
  .fas,
  .fa-fire {
-   size: 1em;
+   size: 1.5em;
    color: red;
    
  }
@@ -10097,6 +10097,10 @@ strong {
    font-weight: 700;
    /* background-color: #040505; */
    border-radius: 5%;
+ }
+
+ .text-center {
+   margin: 5% auto;
  }
 
 

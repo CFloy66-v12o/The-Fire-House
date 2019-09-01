@@ -45,20 +45,55 @@
     </div> 
       <!-- end header jumbotron -->
 
-    <form class="jumbotron bg-danger text-light mx-auto col-lg-10" validate>
-        <h3 class="h2 text-center">Sign In</h3>
-        <div class="form-group col-lg-4 mx-auto needs-validation">
-          <label for="userName">UserName</label>
-          <input type="text" class="form-control" id="userName" aria-describedby="userNameHelp" placeholder="@userName-i.e. display name" required>
-          <small id="userNameHelp" class="form-text text-muted"></small>
+    <!-- Default form login -->
+    <div class="container bg-dark text-light">   
+<form class="text-center border border-light p-5" action="#!">
+
+        <p class="h4 mb-4">Sign in</p>
+    
+        <!-- Email -->
+        <input type="email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="E-mail">
+    
+        <!-- Password -->
+        <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Password">
+    
+        <div class="d-flex justify-content-around">
+            <div>
+                <!-- Remember me -->
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="defaultLoginFormRemember">
+                    <label class="custom-control-label" for="defaultLoginFormRemember">Remember me</label>
+                </div>
+            </div>
+            <div>
+                <!-- Forgot password -->
+                <a href="">Forgot password?</a>
+            </div>
         </div>
-        <div class="form-group col-lg-4 mb-4 mx-auto needs-validation">
-          <label for="FDID">FD ID#</label>
-          <input type="text" class="form-control" id="FDID" placeholder="FD ID#" required>
-        </div>
+    
+        <!-- Sign in button -->
+        <button class="btn btn-info btn-block my-4" type="submit"><i class="fas fa-fire"></i> Sign in</button>
+    
         
-        <button type="submit" class="btn btn-outline-light ml-3"><i class="fas fa-fire"></i> Sign In</button>
-      </form>
+        <!-- Social login -->
+        <p>or sign in with:</p>
+    
+        <a type="button" class="light-blue-text mx-2">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a type="button" class="light-blue-text mx-2">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <a type="button" class="light-blue-text mx-2">
+            <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a type="button" class="light-blue-text mx-2">
+            <i class="fab fa-github"></i>
+        </a>
+    
+    </form>
+  </div>
+    <!-- Default form login -->
    
 
     
@@ -66,76 +101,77 @@
         
       
 
-      <div class="jumbotron bg-danger text-light">
-          <h3 class="h2 text-center">Sign Up</h3>
-          <form class="needs-validation col-lg-10 mx-auto" validate>
-                <div class="form-row">
-                  <div class="col-md-4 mb-3">
-                    <label for="validationCustom01">First name</label>
-                    <input type="text" class="form-control" id="validationCustom01" placeholder="First name" value="" required>
-                    <div class="invalid-feedback">
-                      Looks good!
-                    </div>
-                  </div>
-                  <div class="col-md-4 mb-3">
-                    <label for="validationCustom02">Last name</label>
-                    <input type="text" class="form-control" id="validationCustom02" placeholder="Last name" value="" required>
-                    <div class="invalid-feedback">
-                      Looks good!
-                    </div>
-                  </div>
-                  <div class="col-md-4 mb-3">
-                    <label for="validationCustomUsername">Create Username</label>
-                    <div class="input-group">
-                      <div class="input-group-prepend">
-                        <span class="input-group-text" id="inputGroupPrepend">@</span>
-                      </div>
-                      <input type="text" class="form-control" id="validationCustomUsername" placeholder="Username" aria-describedby="inputGroupPrepend" required>
-                      <div class="invalid-feedback">
-                        Please create a username.
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="form-row">
-                  <div class="col-md-6 mb-3">
-                    <label for="validationCustom03">City</label>
-                    <input type="text" class="form-control" id="validationCustom03" placeholder="City" required>
-                    <div class="invalid-feedback">
-                      Please provide a valid city.
-                    </div>
-                  </div>
-                  <div class="col-md-3 mb-3">
-                    <label for="validationCustom04">State</label>
-                    <input type="text" class="form-control" id="validationCustom04" placeholder="State" required>
-                    <div class="invalid-feedback">
-                      Please provide a valid state.
-                    </div>
-                  </div>
-                  <div class="col-md-3 mb-3">
-                    <label for="validationCustom05">FD ID#</label>
-                    <input type="text" class="form-control" id="validationCustom05" placeholder="FD ID#" required>
-                    <div class="invalid-feedback">
-                      <p class="lead text-light">Please provide an FD ID#. WE CHECK.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="form-group ml-3">
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-                    <label class="form-check-label" for="invalidCheck">
-                      Agree to terms and conditions
-                    </label>
-                    <div class="invalid-feedback">
-                      You must agree before submitting.
-                    </div>
-                  </div>
-                </div>
-                <button class="btn btn-outline-light ml-3" type="submit"><i class="fas fa-fire"></i> Sign Up</button>
-              </form>
+      <div class="container bg-dark text-light">
+          
+          <!-- Default form register -->
+<form class="text-center border border-light p-5" action="#!">
+
+        <p class="h4 mb-4">Sign up</p>
+    
+        <div class="form-row mb-4">
+            <div class="col">
+                <!-- First name -->
+                <input type="text" id="defaultRegisterFormFirstName" class="form-control" placeholder="First name">
+            </div>
+            <div class="col">
+                <!-- Last name -->
+                <input type="text" id="defaultRegisterFormLastName" class="form-control" placeholder="Last name">
+            </div>
+        </div>
+    
+        <!-- E-mail -->
+        <input type="email" id="defaultRegisterFormEmail" class="form-control mb-4" placeholder="E-mail">
+    
+        <!-- Password -->
+        <input type="password" id="defaultRegisterFormPassword" class="form-control" placeholder="Password" aria-describedby="defaultRegisterFormPasswordHelpBlock">
+        <small id="defaultRegisterFormPasswordHelpBlock" class="form-text text-muted mb-4">
+            At least 8 characters and 1 digit
+        </small>
+    
+        <!-- Phone number -->
+        <input type="text" id="defaultRegisterPhonePassword" class="form-control" placeholder="Phone number" aria-describedby="defaultRegisterFormPhoneHelpBlock">
+        <small id="defaultRegisterFormPhoneHelpBlock" class="form-text text-muted mb-4">
+            Optional - for two step authentication
+        </small>
+    
+        <!-- Newsletter -->
+        <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="defaultRegisterFormNewsletter">
+            <label class="custom-control-label" for="defaultRegisterFormNewsletter">Subscribe to our newsletter</label>
+        </div>
+    
+        <!-- Sign up button -->
+        <button class="btn btn-info my-4 btn-block" type="submit"><i class="fas fa-fire"></i> Sign in</button>
+    
+        <!-- Social register -->
+        <p>or sign up with:</p>
+    
+        <a type="button" class="light-blue-text mx-2">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a type="button" class="light-blue-text mx-2">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <a type="button" class="light-blue-text mx-2">
+            <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a type="button" class="light-blue-text mx-2">
+            <i class="fab fa-github"></i>
+        </a>
+    
+        <hr>
+    
+        <!-- Terms of service -->
+        <p>By clicking
+            <em>Sign up</em> you agree to our
+            <a href="" target="_blank">terms of service</a>
+    
+    </form>
+    </div>
+    <!-- Default form register -->
             
 
-    </div>
+    
 
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
