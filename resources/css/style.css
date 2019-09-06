@@ -73,8 +73,9 @@ html {
   
   hr {
     box-sizing: content-box;
-    height: 0;
+    height: 3px;
     overflow: visible;
+    color: #fdfdfe;
   }
   
   h1, h2, h3, h4, h5, h6 {
@@ -10047,6 +10048,8 @@ html {
   }
   /*# sourceMappingURL=bootstrap.css.map */
 
+  /* my styles */
+
 body {
   font-family: 'Annie Use Your Telescope', cursive;
 }
@@ -10105,7 +10108,12 @@ strong {
    margin: 5% auto;
  }
 
+ .group {
+   font-weight: 600;
+   text-decoration: underline;
+ }
 
+ 
 
 
 
